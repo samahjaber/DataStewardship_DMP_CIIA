@@ -24,3 +24,9 @@ The data of interest is a collection of data from four different sources (all da
 
 
 The data mainly includes information about the factors that determine innovation; such as political environment, business environment, education and research, Information and communication technologies.
+
+Then, all datasets have been merged and preprocessed. Initially standardized for consistency with regard to data types, indexes, naming conventions as well as column groups before merging them altogether in one dataset for coherent querying later on.
+The original datasets are saved as csv files in folders (./data/gii), (./data/oecd), (./data/bii) and (./data/eis), where the merged and preprocessed dataset is saved in (./OUTPUT.csv). 
+
+Interactive plots will be produced for Exploratory Data Analysis, radar plot for average innovation leaders and laggards and other visual representations will be showing drivers behind top 10 innovation “Leaders” and factors contributing to bottom 10 innovation “Laggards”.
+
